@@ -1,0 +1,78 @@
+{
+  "extends": "eslint:recommended",
+  "globals": {
+    "angular": true,
+    "moment": true,
+    "DEBUG": true,
+    "ENV": true,
+    "PACKAGE": true
+  },
+  "rules": {
+    "block-scoped-var": "error",
+    "comma-dangle": [
+      "warn",
+      "always-multiline"
+    ],
+    "consistent-return": "error",
+    "curly": [
+      "warn",
+      "all"
+    ],
+    "dot-location": [
+      "warn",
+      "property"
+    ],
+    "eqeqeq": [
+      "error",
+      "smart"
+    ],
+    "guard-for-in": "warn",
+    "indent": [
+      "warn",
+      "tab"
+    ],
+    "no-alert": "off",
+    "no-case-declarations": "error",
+    "no-console": "off",
+    "no-debugger": "warn",
+    "no-else-return": "error",
+    "no-empty-function": "off",
+    "no-extra-bind": "error",
+    "no-fallthrough": "error",
+    "no-loop-func": "error",
+    "no-multi-spaces": "warn",
+    "no-multi-str": "error",
+    "no-native-reassign": "error",
+    "no-new": "warn",
+    "no-param-reassign": "error",
+    "no-redeclare": "error",
+    "no-sequences": "error",
+    "no-throw-literal": "error",
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "no-use-before-define": "off",
+    "no-useless-concat": "error",
+    "no-useless-escape": "error",
+    "no-warning-comments": "warn",
+    "no-with": "error",
+    "radix": "error",
+    "semi": [
+      "warn",
+      "always"
+    ],
+    "yoda": "error"
+  },
+  "parser": "typescript-eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "impliedStrict": true
+    },
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  }
+}
