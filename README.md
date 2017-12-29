@@ -1,1 +1,1 @@
-# Angular-inet-shop-app
+#Inet-shop-app-angular
