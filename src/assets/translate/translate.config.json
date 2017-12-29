@@ -1,0 +1,7 @@
+{
+    "language": {
+        "languageList": ["en", "ru"],
+        "default": "en",
+        "use": "ru"
+    }
+}

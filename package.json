@@ -6,7 +6,9 @@
   "email": "olavlad777@gmail.com",
   "license": "MIT",
   "scripts": {
-
+    "start": "node_modules/.bin/webpack-dev-server",
+    "dev": "webpack-dev-server --hot --open",
+    "build": "webpack"
   },
   "dependencies": {
     "@angular/animations": "~4.1.2",
